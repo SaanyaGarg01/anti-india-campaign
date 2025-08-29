@@ -1,0 +1,42 @@
+{
+  "name": "genai-javascript-examples",
+  "version": "1.0.0",
+  "description": "JavaScript examples for GenAI Future Opportunities & Skills",
+  "main": "genai_demo.js",
+  "scripts": {
+    "start": "node genai_demo.js",
+    "dev": "nodemon genai_demo.js",
+    "test": "jest",
+    "web": "node web_server.js"
+  },
+  "keywords": [
+    "genai",
+    "artificial-intelligence",
+    "machine-learning",
+    "javascript",
+    "nodejs",
+    "ai",
+    "hackathon"
+  ],
+  "author": "GenAI Project Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.5.0",
+    "natural": "^6.5.0",
+    "compromise": "^14.9.0",
+    "chart.js": "^4.4.0",
+    "socket.io": "^4.7.2",
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.6.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
